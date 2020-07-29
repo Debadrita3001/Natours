@@ -1,3 +1,7 @@
+*::selection {
+  background-image: linear-gradient(to right, #55c57a, #28b485);
+  color: #fff; }
+
 @keyframes moveLeft {
   0% {
     opacity: 0;
@@ -34,7 +38,8 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%; 
+  scroll-behavior: smooth;}
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
